@@ -1,13 +1,40 @@
+html, body {
+  min-height: 100vh;
+  margin: auto;
+}
+
 header {
   background-color: gray;
+  display: flex;
+  order: 1;
+}
+
+h5 {
+  font-size: .25em;
+}
+
+body {
+  background: linear-gradient(130deg, rgba(0, 0, 180, .3), rgba(180, 180, 180, .3));
 }
 
 h2 {
-  background-color: red;
+  display: flex;
+  order: 2;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(220, 0, 0, .8);
   color: silver;
 }
 
 h3 {
-  background-color: maroon;
-  color: gray;
+  display: flex;
+  order: 4;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(220, 0, 0, .8);
+  color: silver;
+}
+
+.info {
+
 }
